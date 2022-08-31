@@ -50,7 +50,6 @@ const Featured = () => {
                                     {data[0].price_change_percentage_24h.toFixed(2)}%
                                 </span>
                             )}
-                 {/* <span><FiArrowUpRight/>2.5%</span> */}
             </div>
         </div>
     </div>
