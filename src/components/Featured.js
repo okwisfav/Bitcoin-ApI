@@ -31,6 +31,7 @@ const Featured = () => {
                 </div>
             {/* Right */}
             <div className='right'>
+                <div className='card'>
                  <div className='top'>
                      {/* <img src={BTC} alt="/" /> */}
                      <img src={data[0].image} alt='' />;
@@ -50,6 +51,112 @@ const Featured = () => {
                                     {data[0].price_change_percentage_24h.toFixed(2)}%
                                 </span>
                             )}
+             </div>
+             <div className='card'>
+                 <div className='top'>
+                     {/* <img src={BTC} alt="/" /> */}
+                     <img src={data[0].image} alt='' />;
+                 </div>
+                 <div>
+                     <h5>{data[0].name}</h5>
+                     <p>${data[0].current_price.toLocaleString()}</p>
+                 </div>
+                 {data[0].price_change_percentage_24h < 0 ? (
+                            <span className='red'>
+                                <FiArrowDown className='icon' />
+                                {data[0].price_change_percentage_24h.toFixed(2)}%
+                            </span>
+                        ) : (
+                                <span className='green'>
+                                    <FiArrowUpRight className='icon' />
+                                    {data[0].price_change_percentage_24h.toFixed(2)}%
+                                </span>
+                            )}
+             </div>
+             <div className='card'>
+                 <div className='top'>
+                     {/* <img src={BTC} alt="/" /> */}
+                     <img src={data[0].image} alt='' />;
+                 </div>
+                 <div>
+                     <h5>{data[0].name}</h5>
+                     <p>${data[0].current_price.toLocaleString()}</p>
+                 </div>
+                 {data[0].price_change_percentage_24h < 0 ? (
+                            <span className='red'>
+                                <FiArrowDown className='icon' />
+                                {data[0].price_change_percentage_24h.toFixed(2)}%
+                            </span>
+                        ) : (
+                                <span className='green'>
+                                    <FiArrowUpRight className='icon' />
+                                    {data[0].price_change_percentage_24h.toFixed(2)}%
+                                </span>
+                            )}
+             </div>
+             <div className='card'>
+                 <div className='top'>
+                     {/* <img src={BTC} alt="/" /> */}
+                     <img src={data[0].image} alt='' />;
+                 </div>
+                 <div>
+                     <h5>{data[0].name}</h5>
+                     <p>${data[0].current_price.toLocaleString()}</p>
+                 </div>
+                 {data[0].price_change_percentage_24h < 0 ? (
+                            <span className='red'>
+                                <FiArrowDown className='icon' />
+                                {data[0].price_change_percentage_24h.toFixed(2)}%
+                            </span>
+                        ) : (
+                                <span className='green'>
+                                    <FiArrowUpRight className='icon' />
+                                    {data[0].price_change_percentage_24h.toFixed(2)}%
+                                </span>
+                            )}
+             </div>
+                 <div className='card'>
+                 <div className='top'>
+                     {/* <img src={BTC} alt="/" /> */}
+                     <img src={data[0].image} alt='' />;
+                 </div>
+                 <div>
+                     <h5>{data[0].name}</h5>
+                     <p>${data[0].current_price.toLocaleString()}</p>
+                 </div>
+                 {data[0].price_change_percentage_24h < 0 ? (
+                            <span className='red'>
+                                <FiArrowDown className='icon' />
+                                {data[0].price_change_percentage_24h.toFixed(2)}%
+                            </span>
+                        ) : (
+                                <span className='green'>
+                                    <FiArrowUpRight className='icon' />
+                                    {data[0].price_change_percentage_24h.toFixed(2)}%
+                                </span>
+                            )}
+             </div>
+             <div className='card'>
+                 <div className='top'>
+                     {/* <img src={BTC} alt="/" /> */}
+                     <img src={data[0].image} alt='' />;
+                 </div>
+                 <div>
+                     <h5>{data[0].name}</h5>
+                     <p>${data[0].current_price.toLocaleString()}</p>
+                 </div>
+                 {data[0].price_change_percentage_24h < 0 ? (
+                            <span className='red'>
+                                <FiArrowDown className='icon' />
+                                {data[0].price_change_percentage_24h.toFixed(2)}%
+                            </span>
+                        ) : (
+                                <span className='green'>
+                                    <FiArrowUpRight className='icon' />
+                                    {data[0].price_change_percentage_24h.toFixed(2)}%
+                                </span>
+                            )}
+             </div>
             </div>
         </div>
     </div>
